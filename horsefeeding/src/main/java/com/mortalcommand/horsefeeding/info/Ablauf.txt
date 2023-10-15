@@ -1,0 +1,9 @@
+1: Stable anlegen
+2: Horse anlegen -> Stable zu Horse hinzufügen
+3: FeedingSchedule anlegen
+4: EligibleHorses abrufen
+5: Fütterung durchführen -> Event anlegen
+
+
+stable is noch null bei horse hinzufügen
+

@@ -1,0 +1,21 @@
+Repository Annotation:
+responsible for data access and manipulation
+
+controller nimmt alles mit web sachen
+service is business logik(zB berechnungen)
+repository is rein datenbank, lesen und schreiben aus datenbank
+komplizierter -> service
+wenn was ans web geht -> controller
+
+zeit probleme wegen pferd -> long/int parameter & unixtime
+mapper soll möglichst wenig
+feedingschedule klasse und dann liste machen mit den times
+verpasste feedings: feeding events & was gefüttert werden sollte,
+für welches geschedulte feeding gibts ein event - einfach beide listen vergleichen
+gits für jedes feeding schedule ein event?
+seperate tabelle - müssen aber nicht verbunden werden, können aber
+feeding event tabelle & vergleichst mit schedule tabelle - wenn events nicht gleich viel sind
+
+mapper verbindung zw horse & dto
+service ruft immer repository auf, auf feeding
+controller ruft service auf

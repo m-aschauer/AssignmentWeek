@@ -1,0 +1,8 @@
+1.	Creating, Updating, Removing and Reading a stable - update
+2.	Adding, removing, updating and reading horses and necessary data - update, add(namen wo?)
+3.	Create services for maintaining feeding preferences for horses:	-no
+4.	Create services for checking what horses are eligible for feeding at this time or a manually entered time (see: @RequestParam for additional parameters)
+5.	Create services for releasing food (mark a feeding operation as “done”). In real life, Horses can walk toward feeding stations where the RFID chip causes this operation.
+6.	Create services to check if horses have not been fed even when eligible for more than $x hours. -no
+7.	Create a service that reports horses who have missed their feeding range 1, 2, or more times in a row.
+8.	Create a service that reports horses that didn't complete their meals.

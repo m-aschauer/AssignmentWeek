@@ -1,0 +1,9 @@
+Controller Annotation:
+handles requests for web application
+Spring considers it as a web controller that is capable of handling incoming HTTP requests
+The @Controller annotation is usually used in combination with other annotations like
+@RequestMapping, @GetMapping, @PostMapping, etc. to map requests to specific methods within the controller.
+The methods within the controller handle the requests and return a response to the client
+clear separation btw presentation layer and business logic layer
+
+providing a simple and flexible way to handle incoming HTTP requests and produce appropriate responses
